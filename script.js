@@ -71,8 +71,8 @@ const gameOver = () => {
 
   // show result modal
   resultModal.innerHTML = "";
-  resultModal.classList.toggle("hidden");
-  modalBackground.classList.toggle("hidden");
+  resultModal.classList.remove("hidden");
+  modalBackground.classList.remove("hidden");
   // clear user text
   display.innerHTML = "";
   // make it inactive
@@ -113,7 +113,7 @@ const start = () => {
     if (count == 0) {
       // -------------- START TYPING -----------------
       document.addEventListener("keydown", typeController);
-      countdownOverlay.style.display = "flex";
+      countdownOverlay.style.display = "none";
       display.classList.remove("inactive");
 
       clearInterval(startCountdown);
