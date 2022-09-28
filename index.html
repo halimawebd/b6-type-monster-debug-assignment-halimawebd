@@ -14,7 +14,12 @@
     />
   </head>
   <body>
-    <h1 class="title"><img src="./logo.png" /></h1>
+    <header>
+      <h1 class="title"><img src="./logo.png" /></h1>
+      <a href="blog.html" id="blog" target="_blank">Blog</a>
+     </header>
+    
+   <main>
     <div id="show-time">0 seconds</div>
 
     <div class="box-container">
@@ -31,13 +36,14 @@
         <h1 class="title2">History</h1>
         <div class="line"></div>
       </div>
-      <div id="histories"></div>
+      <div class="history" id="histories"></div>
     </div>
 
     <div id="countdown"></div>
     <div id="modal-background" class="hidden"></div>
     <div id="result" class="hidden"></div>
 
+   </main>
     <script src="./history.js"></script>
     <script src="./script.js"></script>
   </body>
