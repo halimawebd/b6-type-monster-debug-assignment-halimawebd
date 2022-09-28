@@ -94,7 +94,7 @@ body {
   border: 2px solid white !important;
 }
 .hidden {
-  display: none;
+  display: none; 
   /* align-items: center; */
 }
 .title {
@@ -192,3 +192,5 @@ button {
     flex-direction: column;
   }
 }
+
+
